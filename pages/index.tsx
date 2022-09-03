@@ -1,8 +1,12 @@
 import type { NextPage } from 'next'
+import { NextHead } from '../components/head'
 
 const Home: NextPage = () => {
   return (
-    <div>homepage</div>
+    <div>
+      <NextHead />
+      homepage
+    </div>
   )
 }
 
