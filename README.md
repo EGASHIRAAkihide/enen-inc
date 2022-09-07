@@ -2,6 +2,9 @@
 
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using [Contentful](https://www.contentful.com/) as the data source.
 
+- [Vercel](https://vercel.com/)
+- [Contentful](https://app.contentful.com/)
+
 ## Demo
 
 ### [https://next-blog-contentful.vercel.app/](https://next-blog-contentful.vercel.app/)

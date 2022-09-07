@@ -8,30 +8,14 @@ export default function Works() {
       <ul className="pt-4">
         <li>
           <div>
-            works 01
+            title<br />
+            description<br />
+            date<br />
+            [optional] label<br />
+            image<br />
+            external link
           </div>
         </li>
-        <li>
-          <div>
-            works 02
-          </div>
-        </li>
-        <li>
-          <div>
-            works 03
-          </div>
-        </li>
-        <li>
-          <div>
-            works 04
-          </div>
-        </li>
-        <li>
-          <div>
-            works 05
-          </div>
-        </li>
-        
       </ul>
     </section>
   )

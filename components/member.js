@@ -8,27 +8,10 @@ export default function Member() {
       <ul className="pt-4">
         <li>
           <div>
-            Kohei Tachihara
-          </div>
-        </li>
-        <li>
-          <div>
-            Akihide Nagashima
-          </div>
-        </li>
-        <li>
-          <div>
-            Kengo Ujiie
-          </div>
-        </li>
-        <li>
-          <div>
-            GASHI
-          </div>
-        </li>
-        <li>
-          <div>
-            Kenya Arimura
+            name<br />
+            description<br />
+            sns(instagram, tiktok)<br />
+            image
           </div>
         </li>
       </ul>
