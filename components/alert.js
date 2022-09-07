@@ -25,14 +25,7 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
-              <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-success duration-200 transition-colors"
-              >
-                available on GitHub
-              </a>
-              .
+              enen-incのwebsiteは、現在構築中です。完成するにつれて、徐々に色鮮やかなwebsiteとなります。
             </>
           )}
         </div>
