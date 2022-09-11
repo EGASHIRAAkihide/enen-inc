@@ -4,6 +4,9 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 
 - [Vercel](https://vercel.com/)
 - [Contentful](https://app.contentful.com/)
+- [tailwindcss](https://tailwindcss.com/)
+- [flowbite](https://flowbite.com/)
+- [react-icons](https://react-icons.github.io/react-icons)
 
 ## Demo
 

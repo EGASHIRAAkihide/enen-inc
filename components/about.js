@@ -5,13 +5,13 @@ export default function About() {
       <h2 className="text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
         About
       </h2>
-      <h3 className="text-xl md:text-2xl font-bold tracking-tighter leading-tight pt-4">
+      <h3 className="text-2xl md:text-2xl font-bold tracking-tighter leading-tight pt-4">
         Mission
       </h3>
       <h4 className="pt-2">
         すくすくと、のびのびと我が儘を生み出す
       </h4>
-      <h3 className="text-xl md:text-2xl font-bold tracking-tighter leading-tight pt-4">
+      <h3 className="text-2xl md:text-2xl font-bold tracking-tighter leading-tight pt-4">
         VISION
       </h3>
       <h4 className="pt-2">

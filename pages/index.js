@@ -2,6 +2,7 @@ import Container from '../components/container'
 import Intro from '../components/intro'
 import About from '../components/about'
 import Member from '../components/member'
+import Info from '../components/info'
 import Works from '../components/works'
 import Articles from '../components/articles'
 import Layout from '../components/layout'
@@ -20,10 +21,11 @@ export default function Index({ preview, allPosts }) {
           <Intro />
           <About />
           <Member />
-          <Works />
+          <Info />
+          {/* <Works />
           <Articles
             allPosts={allPosts}
-          />
+          /> */}
         </Container>
       </Layout>
     </>
