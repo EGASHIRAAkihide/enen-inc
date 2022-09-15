@@ -22,10 +22,10 @@ export default function Index({ preview, allPosts }) {
           <About />
           <Member />
           <Info />
-          {/* <Works />
+          {/* <Works /> */}
           <Articles
             allPosts={allPosts}
-          /> */}
+          />
         </Container>
       </Layout>
     </>
