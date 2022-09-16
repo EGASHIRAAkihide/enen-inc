@@ -23,9 +23,9 @@ export default function Index({ preview, allPosts }) {
           <Member />
           <Info />
           {/* <Works /> */}
-          <Articles
+          {/* <Articles
             allPosts={allPosts}
-          />
+          /> */}
         </Container>
       </Layout>
     </>

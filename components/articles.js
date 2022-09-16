@@ -1,7 +1,7 @@
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
 
-export default function About({
+export default function Articles({
   allPosts,
 }) {
   const morePosts = allPosts
