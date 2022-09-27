@@ -1,5 +1,6 @@
 import Container from '../components/container'
-import Intro from '../components/intro'
+import Header from '../components/common/header'
+import Intro from './sections/intro'
 import About from '../components/about'
 import Member from '../components/member'
 import Info from '../components/info'
@@ -17,6 +18,7 @@ export default function Index({ preview, allPosts }) {
         <Head>
           <title>{CMS_NAME}</title>
         </Head>
+        <Header />
         <Container>
           <Intro />
           <About />
