@@ -2,29 +2,16 @@ export default function About() {
   return (
     // TODO: APIで取得できる状態にする
     <section className="mt-16 mb-16 md:mb-12">
-      <h2 className="text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
-        About
-      </h2>
-      <h3 className="text-2xl md:text-2xl font-bold tracking-tighter leading-tight pt-4">
-        Mission
-      </h3>
-      <h4 className="pt-2">
-        すくすくと、のびのびと我が儘を生み出す
-      </h4>
-      <h3 className="text-2xl md:text-2xl font-bold tracking-tighter leading-tight pt-4">
-        VISION
-      </h3>
-      <h4 className="pt-2">
-      その我が儘をもって、世界の人々の人生をENtertainする
-      </h4>
-      <p className="text-sm pt-8">
-        「こんなこと私には出来ない」、「これは普通じゃないから」<br />
-        自分の心のままに選択をできていないことや、<br />
-        自分の可能性に蓋をしてしまっている人はたくさんいます。<br />
-        ENENは、人々の「こうなりたい！」という欲求を引き出し、共に実現していきます。<br />
-        その“我が儘に生きる”パワーと共に<br />
-        より人々の人生を楽しく、面白くさせるサービスを世界に提供していきます。
-      </p>
+      <article className="format lg:format-lg">
+        <h2>人生を真のエンターテインメントにデザインする</h2>
+        <p className="lead">ENEN, Inc.は人生の様々な体験をエンターテインメントにデザインしていくLIFE ENTERTAIN COMPANYです。</p>
+        <ol>
+            <li><strong>育つ楽しさ（Dance Coordination Project）</strong>: プレ・ゴールデンエイジに楽しみながら育つための事業</li>
+            <li><strong>自由なキャリア（Dual Career Project）</strong>: フレックスワークとアーティスト活動を両立させるための事業</li>
+            <li><strong>衝動体験（Emotion Craft Project）</strong>: クリエイティブによって日常に衝動体験を生みだすための事業</li>
+            <li><strong>パフォーマンス（Entertainment Dance Project）</strong>: 世界中の誰もが楽しめるポジティブな作品を届けるための事業</li>
+        </ol>
+      </article>
     </section>
   )
 }

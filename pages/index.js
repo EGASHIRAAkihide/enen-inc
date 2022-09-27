@@ -1,10 +1,11 @@
 import Container from '../components/container'
-import Intro from '../components/intro'
+import Header from '../components/common/header'
+import Intro from './sections/intro'
 import About from '../components/about'
 import Member from '../components/member'
 import Info from '../components/info'
-import Works from '../components/works'
-import Articles from '../components/articles'
+// import Works from '../components/works'
+// import Articles from '../components/articles'
 import Layout from '../components/layout'
 import { getAllPostsForHome } from '../lib/api'
 import Head from 'next/head'
@@ -17,13 +18,14 @@ export default function Index({ preview, allPosts }) {
         <Head>
           <title>{CMS_NAME}</title>
         </Head>
+        <Header />
         <Container>
           <Intro />
           <About />
           <Member />
           <Info />
-          {/* <Works />
-          <Articles
+          {/* <Works /> */}
+          {/* <Articles
             allPosts={allPosts}
           /> */}
         </Container>
