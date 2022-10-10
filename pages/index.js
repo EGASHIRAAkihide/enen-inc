@@ -1,8 +1,8 @@
 import Container from "../components/container";
-import Header from "../components/common/header";
 import Intro from "./sections/intro";
 import About from "../components/about";
 import Member from "../components/members/index";
+import Header from "../components/header/index";
 import Info from "../components/info";
 // import Works from '../components/works'
 // import Articles from '../components/articles'
