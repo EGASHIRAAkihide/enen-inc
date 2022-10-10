@@ -1,15 +1,15 @@
-import Container from '../components/container'
-import Header from '../components/common/header'
-import Intro from './sections/intro'
-import About from '../components/about'
-import Member from '../components/members/index'
-import Info from '../components/info'
+import Container from "../components/container";
+import Header from "../components/common/header";
+import Intro from "./sections/intro";
+import About from "../components/about";
+import Member from "../components/members/index";
+import Info from "../components/info";
 // import Works from '../components/works'
 // import Articles from '../components/articles'
-import Layout from '../components/layout'
-import { getAllPostsForHome } from '../lib/api'
-import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
+import Layout from "../components/layout";
+import { getAllPostsForHome } from "../lib/api";
+import Head from "next/head";
+import { CMS_NAME } from "../lib/constants";
 
 export default function Index({ preview, allPosts }) {
   return (
@@ -31,12 +31,12 @@ export default function Index({ preview, allPosts }) {
         </Container>
       </Layout>
     </>
-  )
+  );
 }
 
 export async function getStaticProps({ preview = false }) {
-  const allPosts = (await getAllPostsForHome(preview)) ?? []
+  const allPosts = (await getAllPostsForHome(preview)) ?? [];
   return {
     props: { preview, allPosts },
-  }
+  };
 }

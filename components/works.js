@@ -8,15 +8,20 @@ export default function Works() {
       <ul className="pt-4">
         <li>
           <div>
-            title<br />
-            description<br />
-            date<br />
-            [optional] label<br />
-            image<br />
+            title
+            <br />
+            description
+            <br />
+            date
+            <br />
+            [optional] label
+            <br />
+            image
+            <br />
             external link
           </div>
         </li>
       </ul>
     </section>
-  )
+  );
 }

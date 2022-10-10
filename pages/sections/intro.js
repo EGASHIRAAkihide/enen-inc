@@ -1,4 +1,4 @@
-import { COMPANY_NAME } from '../../lib/constants'
+import { COMPANY_NAME } from "../../lib/constants";
 
 export default function Intro() {
   return (
@@ -11,5 +11,5 @@ export default function Intro() {
       </h4>
       <div></div>
     </section>
-  )
+  );
 }
