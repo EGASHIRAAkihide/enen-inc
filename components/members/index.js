@@ -61,62 +61,62 @@ export default function Member() {
         Member
       </h2>
       <ul className="gap-4 grid lg:grid-cols-2 pt-4">
-          {/* TODO: component化する */}
-          {memberInfos.map((item) => (
-            <li key={item.name} className="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-              <Image
-                className="object-cover w-full h-80 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                width={360}
-                height={240}
-                alt={item.name}
-                src={item.profileImage}
-                loader={loader}
-              />
-              <div className="flex flex-col justify-between p-4 leading-normal md:w-4/5">
-                <h5 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
-                <h6 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">{item.position}</h6>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.description}</p>
-                <ul className="flex gap-3 justify-end">
-                  {
-                    item.instagram && (
-                      <li>
-                        <a href={item.instagram} target="_blank">
-                          <AiOutlineInstagram size={24} />
-                        </a>
-                      </li>
-                    )
-                  }
-                  {
-                    item.twitter && (
-                      <li>
-                        <a href={item.twitter} target="_blank">
-                          <AiOutlineTwitter size={24} />
-                        </a>
-                      </li>
-                    )
-                  }
-                  {
-                    item.tiktok && (
-                      <li>
-                        <a href={item.tiktok} target="_blank">
-                          <FaTiktok size={20} />
-                        </a>
-                      </li>
-                    )
-                  }
-                  {
-                    item.externalLink && (
-                      <li>
-                        <a href={item.externalLink} target="_blank">
-                          <FiExternalLink size={20} />
-                        </a>
-                      </li>
-                    )
-                  }
-                </ul>
-              </div>
-          </li>
-          ))}
+        {/* TODO: component化する */}
+        {memberInfos.map((item) => (
+        <li key={item.name} className="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <Image
+              className="object-cover w-full h-80 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+              width={360}
+              height={240}
+              alt={item.name}
+              src={item.profileImage}
+              loader={loader}
+            />
+            <div className="flex flex-col justify-between p-4 leading-normal md:w-4/5">
+              <h5 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
+              <h6 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">{item.position}</h6>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.description}</p>
+              <ul className="flex gap-3 justify-end">
+                {
+                  item.instagram && (
+                    <li>
+                      <a href={item.instagram} target="_blank">
+                        <AiOutlineInstagram size={24} />
+                      </a>
+                    </li>
+                  )
+                }
+                {
+                  item.twitter && (
+                    <li>
+                      <a href={item.twitter} target="_blank">
+                        <AiOutlineTwitter size={24} />
+                      </a>
+                    </li>
+                  )
+                }
+                {
+                  item.tiktok && (
+                    <li>
+                      <a href={item.tiktok} target="_blank">
+                        <FaTiktok size={20} />
+                      </a>
+                    </li>
+                  )
+                }
+                {
+                  item.externalLink && (
+                    <li>
+                      <a href={item.externalLink} target="_blank">
+                        <FiExternalLink size={20} />
+                      </a>
+                    </li>
+                  )
+                }
+              </ul>
+            </div>
+        </li>
+        ))}
       </ul>
     </section>
   )
