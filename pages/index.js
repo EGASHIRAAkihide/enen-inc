@@ -1,15 +1,17 @@
-import Container from "../components/container";
-import Intro from "./sections/intro";
+import Head from "next/head";
+
 import About from "../components/about";
-import Member from "../components/members/index";
+import Container from "../components/container";
 import Header from "../components/header/index";
 import Info from "../components/info";
 // import Works from '../components/works'
 // import Articles from '../components/articles'
 import Layout from "../components/layout";
+import Member from "../components/members/index";
 import { getAllPostsForHome } from "../lib/api";
-import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
+
+import Intro from "./sections/intro";
 
 export default function Index({ preview, allPosts }) {
   return (
