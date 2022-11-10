@@ -6,6 +6,7 @@ const Home: NextPage = () => {
     <div>
       home
       <Link href="/about">about</Link>
+      アイウエオ
     </div>
   );
 };

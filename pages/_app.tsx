@@ -1,5 +1,12 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import Container from "@mui/material/Container";
+import "../styles/reset.css";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+import Navbar from "../components/navbar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -11,9 +18,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Navbar />
+
       <main>
-        <Component {...pageProps} />
+        <Container maxWidth="md">
+          <Component {...pageProps} />
+        </Container>
       </main>
+
+      <footer>footer</footer>
     </>
   );
 }
